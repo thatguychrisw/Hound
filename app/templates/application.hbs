@@ -1,1 +1,22 @@
-{{outlet}}
+<div class="sidebar">
+    <div class="brand">
+        <img src="./images/watchdog.svg" alt="">
+    </div>
+    <ul class="nav">
+        <li>{{#link-to 'index'}}{{fa-icon 'bolt'}} Run Test Now{{/link-to}}</li>
+        <li>{{#link-to 'test'}}{{fa-icon 'bar-chart'}} View Reports{{/link-to}}</li>
+        <li>{{#link-to 'test'}}{{fa-icon 'th'}}Another Option{{/link-to}}</li>
+    </ul>
+</div>
+<div class="body">
+    <div class="settings">
+        Welcome, <b>Emily Johnston</b><button id="gearMenuToggle" {{action 'gearMenuToggle'}}>{{fa-icon "gear"}}{{fa-icon "angle-down"}}</button>
+        <ul id="gearMenu" class="{{if showGearMenu 'in'}}">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Sign Out</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        {{outlet}}
+    </div>
+</div>
