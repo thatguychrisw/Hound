@@ -1,6 +1,6 @@
 import {moduleFor, test} from 'qunit';
 
-moduleFor('service:traffic-io-analyzer', 'Unit | Services | analyze traffic input/output', {
+moduleFor('service:net-traffic-io-analyzer', 'Unit | Services | analyze network traffic input/output', {
 
 });
 
