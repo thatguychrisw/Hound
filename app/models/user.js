@@ -2,5 +2,5 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   name: DS.attr('string'),
-  speedTests: DS.hasMany('speed-test')
+  testResults: DS.hasMany('test-result')
 });
