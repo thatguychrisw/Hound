@@ -1,4 +1,4 @@
-/* jshint undef: false */
+/* eslint-disable */
 
 const BrowserWindow = require('electron').BrowserWindow;
 const app = require('electron').app;
