@@ -1,4 +1,4 @@
-/* jshint node: true */
+/* eslint-disable */
 'use strict';
 
 const electron             = require('electron');
