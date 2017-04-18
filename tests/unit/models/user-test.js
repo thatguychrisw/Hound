@@ -1,8 +1,8 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('speed-test', 'Unit | Model | speed test', {
+moduleForModel('user', 'Unit | Model | user', {
   // Specify the other units that are required for this test.
-  needs: ['model:client', 'model:server', 'model:speed', 'model:user']
+  needs: ['model:speed-test']
 });
 
 test('it exists', function(assert) {
